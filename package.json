@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Rehman-codes/Backend-Practice#readme",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0"
   }
 }
