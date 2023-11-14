@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Backend practice App",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Rehman-codes/Backend-Practice/issues"
   },
-  "homepage": "https://github.com/Rehman-codes/Backend-Practice#readme"
+  "homepage": "https://github.com/Rehman-codes/Backend-Practice#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
